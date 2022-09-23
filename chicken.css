@@ -1,9 +1,9 @@
-body{
+body {
     background-color: rgb(196, 238, 224);
 }
 
 
-h1{
+h1 {
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
@@ -13,7 +13,7 @@ h1{
     letter-spacing: 0.2em;
 }
 
-h3{
+h3 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: burlywood;
@@ -22,15 +22,17 @@ h3{
     margin-top: 50px;
 
 }
-.box1{
+
+.box1 {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     background-color: azure;
     margin-bottom: 0.5em;
- border-radius: 20px;
+    border-radius: 20px;
 }
-.box2{
+
+.box2 {
     background-color: darkslategray;
     line-height: 1.5em;
     color: white;
@@ -40,29 +42,34 @@ h3{
     border-bottom-style: dotted;
     padding: 10px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-a:hover{
-    color:burlywood;
+
+a:hover {
+    color: burlywood;
 }
-a:active{
-    color:red;
+
+a:active {
+    color: red;
 }
-a:visited{
-    color: rgb(102, 102, 76);
-}
-.box3 h2{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: burlywood;
-font-weight: bolder;
-text-transform: uppercase;
-text-shadow:  5px 5px 10px darkslategrey;
-text-align: center;
+
+/* a:visited{
+    color: rgb(102, 102, 76);} */
+
+.box3 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: burlywood;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px darkslategrey;
+    text-align: center;
 
 }
-.categories{
+
+.categories {
     background-color: darkslategrey;
     color: white;
     border-radius: 10px;
@@ -71,43 +78,48 @@ text-align: center;
     border-bottom-style: dotted;
     line-height: 1.5em;
     border-width: 3px;
-  list-style: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.box6{
+.box6 {
     margin: 60px;
 }
-.box3{
- border: 5px dotted burlywood;
- padding: 5px;  
- margin: 20px;
- width: 80%;
- color: darkslategrey;
- border-radius: 10px;
+
+.box3 {
+    border: 5px dotted burlywood;
+    padding: 5px;
+    margin: 20px;
+    width: 80%;
+    color: darkslategrey;
+    border-radius: 10px;
 
 }
-.box5{
+
+.box5 {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     background-color: azure;
     margin-bottom: 0.5em;
- border-radius: 20px;
+    border-radius: 20px;
 }
-.container{
+
+.container {
     width: 80%;
     margin: auto;
 }
 
-.container{
+.container {
     margin: auto;
 }
 
-.box4{
+.box4 {
     border: 5px dotted burlywood;
     padding: 5px;
-    margin: 60px;
+    /* margin: 60px; */
     margin-top: 10px;
-    border-radius:10px ;
- }
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+}
